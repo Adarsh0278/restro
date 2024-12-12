@@ -14,6 +14,9 @@ nav .navbar{
     align-items: center;
     justify-content: space-between;
     padding:  20px  60px;
+    position: absolute;
+    z-index: 999;
+    width: 100%;
 }
 
 ul{
@@ -56,3 +59,34 @@ ul li a{
     
 }
 /* end nabbar */
+
+/* Start hero section */
+
+#hero-section{
+    display: flex;
+}
+.img1{
+    position: relative;
+}
+.img2{
+    position: absolute;
+    right:0;
+    width: 67%;
+    height: 113%;
+
+
+}
+.img3{
+    position: absolute;
+    right:0;
+    height: fit-content;
+    width: 67%;
+    padding: 10% 6%;
+
+}
+
+
+
+/* End hero section */
+
+
