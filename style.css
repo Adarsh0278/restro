@@ -5,7 +5,7 @@
 }
 body{
     background-color: rgb(43, 42, 42);
-    font-family: sans-serif;
+    font-family: montserrat, sans-serif;
 }
 
 /* start nabbar */
@@ -67,25 +67,102 @@ ul li a{
 }
 .img1{
     position: relative;
+    height: 100vh;
+    width: 92%;
+
 }
 .img2{
     position: absolute;
     right:0;
-    width: 67%;
-    height: 113%;
+    width: 69%;
+    /* height: 113%; */
+    height: 100vh;
 
 
 }
 .img3{
     position: absolute;
     right:0;
-    height: fit-content;
-    width: 67%;
-    padding: 10% 6%;
+    /* height: fit-content; */
+    width: 69%;
+    height: 100%;
+    /* padding: 10% 10%; */
+    padding: 10% 0px 0px 6%;
 
+}
+.hero-section-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 9999;
+    color: white;
+    /* padding: 0px 10%; */
+    padding: 8%;
+}
+.hero-section-content h1{
+    font-family: "Grand Hotel";
+    font-size: 6.5em;
+    font-weight: 550;
+    color: #ffc200;
+}
+.hero-section-content p{
+    padding-top: 15px;
+    font-size: 1.5em;
+    /* width: 81%; */
+}
+
+.hero-section-content div button{
+    margin-top: 45px;
+    padding: 10px 45px;
+    border: none;
+    border-radius: 3px;
+    background-color: #ffc200;
+    font-weight: 550;
+    color: #2f2f2f;
 }
 
 
+@media screen and (max-width:800px){
+    #hero-section{
+        display: block;
+    }
+    .img1{
+        /* width: 40%; */
+        display: none;
+    }
+    .img3{
+        position: relative;
+        z-index: 1;
+        width: 100vw;
+        height: 100vh;
+        
+        
+    }
+    .img2{
+        z-index: 1;
+        position: absolute;
+        width: 100vw;
+
+
+    }
+
+    .hero-section-content{
+        position: absolute;
+        z-index: 9999;
+        top: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+    }
+    .hero-section-content h1{
+        font-size: 4em;
+    }
+    .hero-section-content p{
+        font-size: 100%;
+        text-align: center;
+    }
+}
 
 /* End hero section */
 
