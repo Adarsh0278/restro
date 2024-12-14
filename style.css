@@ -54,7 +54,7 @@ ul li a{
 
 .img1{
     height: 100vh;
-    width: 41%;
+    width: 40%;
 
 }
 .img2{
@@ -195,4 +195,100 @@ ul li a{
 
 /* End hero section */
 
+/* Start best seller section  */
 
+.bestSeller-section{
+    color: #2f2f2f;
+}
+.content h2{
+    font-size: 4em;
+    font-family: "Grand Hotel";
+    font-weight: 550;
+    padding-top: 7%;
+}
+.content p{
+    padding-top: 2%;
+    width: 50%;
+    font-size: 20px;
+}
+.parent-card{
+    display: flex;
+    /* align-items: end; */
+    justify-content: space-evenly;
+    padding-top: 5%;
+    flex-wrap: wrap;
+}
+.card{
+    padding: 2%;
+}
+.card img{
+    width: 250px;
+}
+.card-content{
+    text-align: center;
+    width: 250px;
+}
+/* end best seller section  */
+
+/* .orientalTaste-Section{
+    display: flex;
+    padding: 8%;
+}
+
+.oriental-img img{
+    width: 90%;
+    padding-top: 30%;
+    justify-items: end;
+
+}
+
+.oriental-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    text-align: left;
+    padding-bottom: 1.25%;
+    width: 70%;
+    padding-left: 10%;
+}
+
+.oriental-content h2{
+    font-size: 5.5em;
+    font-family: "Grand Hotel";
+    font-weight: 550;
+    color: #ffc200;
+}
+.oriental-content p{
+    font-size: 20px;
+    width: 80%;
+    margin-top: 3%;
+
+}
+.oriental-content button{
+    width: 200px;
+    height: 40px;
+    font-family: 900;
+    background-color: #ffc200;
+    border: none;
+    border-radius: 3px;
+    margin-top: 7%;
+}
+.oriental-content button p{
+    font-weight: 700;
+    width: 200px;
+    text-align: center;
+    font-size: 1.2em;
+    color: #2f2f2f;
+    
+}
+.page3-bg{
+    width: 100vw;
+}
+.page3-bg img{
+    overflow: hidden;
+    left: 0;
+    width: 40%;
+    position: absolute;
+    transform: rotate(90deg);
+    z-index: -1;
+} */
