@@ -113,85 +113,7 @@ ul li a{
 }
 
 
-@media screen and (max-width:800px){
-    
-    ul li{
-        display: none;
-    }
-    .ri-menu-line{
-        display: block;
-        color: white;
-        font-size: 20px;
 
-    }
-    img{
-        width: 160px;
-    }
-    
-    #hero-section{
-        display: block;
-    }
-    .img1{
-        /* width: 40%; */
-        display: none;
-    }
-    .mediaImg1-parent{
-        /* display: block; */
-        position: absolute;
-        display: flex;
-        width: 100%;
-        height: 100%;
-        justify-content: center;
-        align-items: center;
-        z-index: 999;
-        top: 11;
-        bottom: 70px;
-    }
-    .mediaImg1-parent img{
-        width: 300px;
-        filter: blur(1px);
-
-        /* border-radius:80%; */
-    }
-    .img3{
-        position: relative;
-        z-index: 1;
-        width: 100vw;
-        height: 100vh;
-        padding-top: 20%;
-        
-    }
-    .img2{
-        z-index: 1;
-        position: absolute;
-        width: 100vw;
-
-    }
-
-    .hero-section-content{
-        position: absolute;
-        top: 0;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-        padding: 10%;
-        height: 100vh;
-        padding-top: 10em;
-    }
-    .hero-section-content h1{
-        border: 1px solid #ffc200;
-        backdrop-filter: blur(2px);
-        font-size: 4em;
-        padding:10px;
-    }
-    .hero-section-content p{
-        padding-top: 7em;
-
-        font-size: 100%;
-        text-align: center;
-    }
-}
 
 /* End hero section */
 
@@ -230,26 +152,26 @@ ul li a{
 }
 /* end best seller section  */
 
-/* .orientalTaste-Section{
+
+/* Start Oriental taste Section */
+
+.orientalTaste-Section{
     display: flex;
-    padding: 8%;
+    padding: 10% 8% 0% 8%;
 }
+
 
 .oriental-img img{
     width: 90%;
-    padding-top: 30%;
-    justify-items: end;
-
 }
 
 .oriental-content{
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: end;
-    text-align: left;
-    padding-bottom: 1.25%;
-    width: 70%;
-    padding-left: 10%;
+    padding-left: 6%;
+
 }
 
 .oriental-content h2{
@@ -260,35 +182,150 @@ ul li a{
 }
 .oriental-content p{
     font-size: 20px;
-    width: 80%;
-    margin-top: 3%;
+    color: white;
+    width: 90%;
+    padding-bottom: 4%;
+
+
 
 }
 .oriental-content button{
-    width: 200px;
     height: 40px;
     font-family: 900;
     background-color: #ffc200;
     border: none;
     border-radius: 3px;
-    margin-top: 7%;
+    margin-top: 4%;
+    padding: 0px 35px;
+    width: 200px;
+
 }
 .oriental-content button p{
     font-weight: 700;
-    width: 200px;
-    text-align: center;
     font-size: 1.2em;
     color: #2f2f2f;
+    font-size: 15px;
+    padding-top: 4%;
+}
+
+.page3-bg img{
+    position: absolute;
+    width: 100%;
+    height: 78vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    left: 0;
+    z-index: -999999;
+    background-image: url(asset/page3\bg.png);
     
 }
-.page3-bg{
-    width: 100vw;
+
+
+
+/* End Oriental taste Section */
+
+/* @media 800px */
+
+@media screen and (max-width:800px){
+    
+    ul li{
+        display: none;
+    }
+    .ri-menu-line{
+        display: block;
+        color: white;
+        font-size: 20px;
+
+    }
+    img{
+        width: 160px;
+    }
+    
+    #hero-section{
+        display: block;
+    }
+    .img1{
+        display: none;
+    }
+    .mediaImg1-parent{
+        position: absolute;
+        display: flex;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        z-index: 999;
+        top: 11;
+        bottom: 70px;
+    }
+    .mediaImg1-parent img{
+        width: 300px;
+        filter: blur(1px);
+    }
+    .img3{
+        position: relative;
+        z-index: 1;
+        width: 100%;
+        padding: 25% 8%;
+        
+    }
+    .img2{
+        z-index: 1;
+        position: absolute;
+        width: 100vw;
+
+    }
+
+    .hero-section-content{
+        position: absolute;
+        top: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 10%;
+        height: 100vh;
+        padding-top: 10em;
+    }
+    .hero-section-content h1{
+        border: 1px solid #ffc200;
+        backdrop-filter: blur(2px);
+        font-size: 4em;
+        padding:10px;
+    }
+    .hero-section-content p{
+        padding-top: 7em;
+
+        font-size: 100%;
+        text-align: center;
+    }
+    .orientalTaste-Section{
+        flex-wrap: wrap;
+    }
+
+    .oriental-img{
+        display: flex;
+        justify-content: center;
+        padding-left: 8%;
+    }
+    .oriental-content{
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        padding-left: 6%;
+        width: 90%;
+    }
+    .oriental-content h2{
+        font-size: 4em;
+        width: 100%;
+        text-align: center;
+    }
+    .oriental-content p{
+        font-size: 1em;
+        text-align: center;
+        
+    }
+    .page3-bg img{
+        height: 90vh;
+    }
 }
-.page3-bg img{
-    overflow: hidden;
-    left: 0;
-    width: 40%;
-    position: absolute;
-    transform: rotate(90deg);
-    z-index: -1;
-} */
