@@ -157,7 +157,9 @@ ul li a{
 
 .orientalTaste-Section{
     display: flex;
-    padding: 10% 8% 0% 8%;
+    padding: 8%;
+    height: fit-content;
+    /* background-color: #ffc200; */
 }
 
 
@@ -221,8 +223,92 @@ ul li a{
 }
 
 
-
 /* End Oriental taste Section */
+
+
+.Statistics-Section{
+    width: 100%;
+    height: 100vh;
+
+}
+.Statistics-Section img{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    padding: 0% 2%;
+    background-color: #2e2e2e;
+    z-index: -1;
+    padding: 1% 3%;
+}
+
+.Statistics{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Statistics h2{
+    font-size: 6em;
+    color: #ffc200;
+    font-family: "Grand Hotel";
+    font-weight: 550;
+
+}
+.Statistics p{
+    width: 50%;
+    text-align: center;
+    font-size: 19px;
+    color: white;
+}
+
+ .circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 4px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+ }
+.parent-circl{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60%;
+    flex-wrap: wrap;
+}
+
+ .circle h3{
+    color: #ffc200;
+    font-size: 2em;
+    
+ }
+
+ .circle p{
+    font-weight: 650;
+    font-size: 1.5em;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* @media 800px */
 
@@ -285,7 +371,6 @@ ul li a{
         width: 100%;
         padding: 10%;
         height: 100vh;
-        padding-top: 10em;
     }
     .hero-section-content h1{
         border: 1px solid #ffc200;
@@ -295,7 +380,6 @@ ul li a{
     }
     .hero-section-content p{
         padding-top: 7em;
-
         font-size: 100%;
         text-align: center;
     }
@@ -308,12 +392,25 @@ ul li a{
         justify-content: center;
         padding-left: 8%;
     }
+    .orientalTaste-Section{
+        padding: 0px;
+    }
+    .page3-bg{
+        width: 70%;
+    }
     .oriental-content{
         justify-content: center;
         display: flex;
         align-items: center;
         padding-left: 6%;
         width: 90%;
+    }
+    .oriental-img{
+        margin-top: 2%;
+        width: 90%;
+    }
+    .oriental-img img{
+        width: 300px !important;
     }
     .oriental-content h2{
         font-size: 4em;
@@ -325,7 +422,16 @@ ul li a{
         text-align: center;
         
     }
-    .page3-bg img{
-        height: 90vh;
+    .circle{
+        margin-top: 4%;
     }
+    .Statistics-Section img{
+        display: none;
+    }
+  .Statistics-Section{
+    background-color: #2e2e2e;
+    height: fit-content;
+  }
 }
+
+
