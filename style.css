@@ -492,11 +492,6 @@ ul li a{
 
 
 
-
-
-
-
-
 /* @media 800px */
 
 @media screen and (max-width:800px){
@@ -623,6 +618,7 @@ ul li a{
   .ChickenGrill-Section{
     flex-wrap: wrap-reverse;
   }
+
 
   .ChickenGrill-img{
     padding: 0;
